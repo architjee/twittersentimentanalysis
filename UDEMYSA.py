@@ -1,9 +1,6 @@
 
 import twitter
-api = twitter.Api(consumer_key='fOK9tgNpP2a0Mgm7lgNNhT1Tg',
-                 consumer_secret='WlD7RfW5P09L9OPLvFFzVAchamwdZdUyCHKoNZkkcm7l9B5nyo',
-                 access_token_key='2224993461-DSs2wgPxtHh3xMhvxDtTdolgqVS4Ri93wAAMdt4',
-                 access_token_secret='GsGNDt7NMIpojE8jcVTMdpBsesvdQogtMJ9Wxrh7a0nzs')
+api = twitter.Api()
 print api.VerifyCredentials()
 
 def createTestData(search_string):
